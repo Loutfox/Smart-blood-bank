@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="771.0" stylesheets="@BloodBankMain.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bloodbankmain.FXMLDocumentController">
+   <left>
+      <Pane fx:id="leftSide" prefHeight="570.0" prefWidth="408.0" BorderPane.alignment="CENTER" />
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane fx:id="bloodBank" prefHeight="181.0" prefWidth="363.0">
+               <VBox.margin>
+                  <Insets left="35.0" top="20.0" />
+               </VBox.margin>
+            </Pane>
+            <JFXTextField fx:id="username" focusColor="#d32f2f" labelFloat="true" prefHeight="45.0" prefWidth="343.0" promptText="Username" unFocusColor="#757575">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXPasswordField fx:id="password" focusColor="#d32f2f" labelFloat="true" onKeyPressed="#keyPressed" prefHeight="45.0" prefWidth="363.0" promptText="Password" unFocusColor="#757575">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXButton fx:id="loginButton" onAction="#login" prefHeight="44.0" prefWidth="363.0" text="Login">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </JFXButton>
+            <HBox prefHeight="60.0" prefWidth="363.0" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="60.0" top="60.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+</BorderPane>

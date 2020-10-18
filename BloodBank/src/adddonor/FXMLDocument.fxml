@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="771.0" stylesheets="@adddonor.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adddonor.FXMLDocumentController">
+   <children>
+      <Label fx:id="addDonor" layoutX="290.0" layoutY="45.0" text="New Donor" />
+      <VBox layoutX="192.0" layoutY="109.0" prefHeight="384.0" prefWidth="387.0">
+         <children>
+            <TextField fx:id="lastName" prefHeight="42.0" prefWidth="387.0" promptText="Last Name">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="firstName" prefHeight="42.0" prefWidth="387.0" promptText="First Name">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="age" prefHeight="42.0" prefWidth="387.0" promptText="Age">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="gender" prefHeight="42.0" prefWidth="387.0" promptText="Gender">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="bloodGroup" prefHeight="42.0" prefWidth="387.0" promptText="Blood group">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="phoneNumber" prefHeight="42.0" prefWidth="387.0" promptText="Phone number">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="city" prefHeight="42.0" prefWidth="387.0" promptText="City">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+      </VBox>
+      <JFXButton layoutX="227.0" layoutY="509.0" onAction="#addDonor" prefHeight="42.0" prefWidth="126.0" text="Add">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="cancelButton" layoutX="419.0" layoutY="509.0" onAction="#cancel" prefHeight="42.0" prefWidth="126.0" text="Cancel">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

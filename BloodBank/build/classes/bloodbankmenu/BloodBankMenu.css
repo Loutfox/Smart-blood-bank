@@ -1,0 +1,22 @@
+#AnchorPane{
+    -fx-background-image:url("hospital2.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    
+}
+#saveLife{
+    -fx-background-image:url("savelife.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 280 150;
+}
+.jfx-button{
+    -fx-background-color: transparent;
+    -fx-text-fill: #d32f2f;
+    -fx-background-radius: 3,2,1;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+.jfx-button:hover{
+    -fx-background-color: #d32f2f;
+    -fx-text-fill: #E0E0E0;
+}

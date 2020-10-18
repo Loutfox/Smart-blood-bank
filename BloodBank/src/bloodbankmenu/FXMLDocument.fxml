@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="771.0" stylesheets="@BloodBankMenu.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bloodbankmenu.FXMLDocumentController">
+   <children>
+      <VBox layoutX="-1.0" prefHeight="570.0" prefWidth="409.0" AnchorPane.leftAnchor="20.0">
+         <children>
+            <JFXButton fx:id="newDonor" onAction="#addDonor" prefHeight="48.0" prefWidth="400.0" text="New Donor">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton fx:id="newHospital" onAction="#addHospital" prefHeight="48.0" prefWidth="400.0" text="New Hospital">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton onAction="#bloodStocksinfo" prefHeight="48.0" prefWidth="400.0" text="Blood Stock">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton onAction="#realTimeBloodInfo" prefHeight="48.0" prefWidth="400.0" text="Real time tracking of blood">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton onAction="#donorsInfo" prefHeight="48.0" prefWidth="400.0" text="Donors informations">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton onAction="#hospitalsInfo" prefHeight="48.0" prefWidth="400.0" text="Hospitals informations">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton onAction="#changePassword" prefHeight="48.0" prefWidth="400.0" text="Change your password">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton fx:id="logOut" onAction="#logout" prefHeight="48.0" prefWidth="400.0" text="Log Out">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </JFXButton>
+         </children>
+      </VBox>
+      <Pane fx:id="saveLife" layoutX="429.0" layoutY="185.0" prefHeight="200.0" prefWidth="342.0" />
+   </children>
+</AnchorPane>

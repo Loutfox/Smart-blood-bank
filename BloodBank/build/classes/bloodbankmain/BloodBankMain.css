@@ -1,0 +1,31 @@
+#leftSide{
+    -fx-background-image:url("bloodbank.jpg");
+    -fx-background-size: cover ;
+    -fx-background-repeat: no-repeat;
+}
+#bloodBank{
+    -fx-background-image:url("blood-bank.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 280 150;
+}
+#borderPane{
+    -fx-background-color: white;
+}
+.jfx-button{
+    -fx-background-color: #d32f2f;
+    -fx-background-radius: 0;
+    -fx-text-fill: #E0E0E0;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+.jfx-button:hover{
+    -fx-background-color: #ebd1c2;
+    -fx-text-fill: #d32f2f;
+}
+.jfx-text-field{
+    -fx-prompt-text-fill: #757575;
+}
+.jfx-password-field{
+    -fx-prompt-text-fill: #757575;
+}
+

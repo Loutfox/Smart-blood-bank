@@ -1,0 +1,64 @@
+#AnchorPane{
+    -fx-background-image:url("hospital2.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    
+}
+.jfx-button{
+    -fx-background-color: #d32f2f;
+    -fx-background-radius: 8;
+    -fx-text-fill: #E0E0E0;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: #d32f2f;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: #d32f2f;
+    -fx-font-size:15px;
+    -fx-font-weight:bold;
+    -fx-size:50;
+    -fx-alignment: CENTER ;    
+    -fx-text-alignment: center;
+}
+
+.table-row-cell{
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: transparent;
+    -fx-cell-size: 40px;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; 
+}
+
+.table-row-cell:odd{
+    -fx-background-color: transparent;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #E0E0E0;
+    -fx-text-background-color: black;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+    -fx-fixed-cell-size: 50;
+}

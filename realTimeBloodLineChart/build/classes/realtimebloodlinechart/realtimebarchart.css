@@ -1,0 +1,32 @@
+ #AnchorPane{
+    -fx-background-image:url("hospital2.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;  
+}
+.default-color0.chart-bar { -fx-bar-fill:  #d32f2f;}
+#searchIcon{
+    -fx-fill:#4d4d4d;
+}
+#searchIcon:hover{
+    -fx-fill: #d32f2f;
+}
+#bloodLineChart{
+    -fx-background-color: transparent;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    
+}
+.jfx-button{
+    -fx-background-color: #d32f2f;
+    -fx-background-radius: 8;
+    -fx-text-fill: #E0E0E0;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+.axis{
+    -fx-tick-label-font-size: 18px;
+    -fx-tick-label-fill: black;
+}
